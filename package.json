@@ -1,0 +1,110 @@
+{
+  "name": "@zos-apps/telegram",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.telegram",
+    "name": "Telegram",
+    "icon": "✈️",
+    "category": "communication",
+    "description": "Fast and secure messaging",
+    "permissions": [
+      "network",
+      "notifications"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 900,
+        "height": 650
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "messaging",
+      "chat",
+      "secure",
+      "communication"
+    ],
+    "about": "Fast, secure messaging with cloud sync.",
+    "help": [
+      "Start a chat",
+      "Create groups",
+      "Share files"
+    ],
+    "docs": "https://zos-apps.github.io/telegram",
+    "site": "https://github.com/zos-apps/telegram",
+    "features": [
+      "Cloud sync",
+      "Groups",
+      "Channels",
+      "Bots",
+      "Secret chats",
+      "File sharing"
+    ],
+    "shortcuts": [
+      "⌘N New message",
+      "⌘⏎ Send",
+      "⌘K Search"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/telegram"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/telegram/issues",
+    "changelog": "https://github.com/zos-apps/telegram/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Fast and secure messaging",
+  "homepage": "https://zos-apps.github.io/telegram",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/telegram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/telegram/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "telegram",
+    "messaging",
+    "chat",
+    "secure",
+    "communication"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
